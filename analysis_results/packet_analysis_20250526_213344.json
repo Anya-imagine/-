@@ -1,0 +1,1746 @@
+[
+  {
+    "timestamp": "2025-05-26T21:33:44.165246",
+    "summary": "Ether / IP / ICMP 192.168.36.131 > 8.8.8.8 echo-request 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REQUEST', 'code': 0, 'identifier': 33544, 'sequence': 1}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:33:44.198760",
+    "summary": "Ether / IP / ICMP 8.8.8.8 > 192.168.36.131 echo-reply 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REPLY', 'code': 0, 'identifier': 33544, 'sequence': 1}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:33:45.165398",
+    "summary": "Ether / IP / ICMP 192.168.36.131 > 8.8.8.8 echo-request 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REQUEST', 'code': 0, 'identifier': 33544, 'sequence': 2}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:33:45.221685",
+    "summary": "Ether / IP / ICMP 8.8.8.8 > 192.168.36.131 echo-reply 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REPLY', 'code': 0, 'identifier': 33544, 'sequence': 2}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:33:46.166551",
+    "summary": "Ether / IP / ICMP 192.168.36.131 > 8.8.8.8 echo-request 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REQUEST', 'code': 0, 'identifier': 33544, 'sequence': 3}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:33:46.220110",
+    "summary": "Ether / IP / ICMP 8.8.8.8 > 192.168.36.131 echo-reply 0 / Raw",
+    "protocols": [
+      {
+        "type": "ICMP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "icmpField": "{'type_str': 'ECHO_REPLY', 'code': 0, 'identifier': 33544, 'sequence': 3}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.655640",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "ssh.ver": "{'SSH-2.0-ssh2js1.15.0'}",
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.683164",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "ssh.ver": "{'SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.11'}",
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.687796",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.691638",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.695933",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.698807",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.701504",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.736469",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.740220",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.745175",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.781476",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.789329",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.836332",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.878240",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.900336",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.917896",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:08.926612",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.196069",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.212319",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.221291",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.228169",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.234599",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.243477",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.251737",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.272234",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.277404",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.285172",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.292424",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.299828",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.310686",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.320619",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.388020",
+    "summary": "Ether / IP / TCP 192.168.36.131:ssh > 192.168.36.1:3552 PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.565723",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:09.570919",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.143928",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.148856",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.153145",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.156420",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.160416",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.164276",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.169734",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:12.175162",
+    "summary": "Ether / IP / TCP 192.168.36.1:3552 > 192.168.36.131:ssh PA / Raw",
+    "protocols": [
+      {
+        "type": "SSH",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [
+            "ssh"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:19.485406",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMBNegociate_Protocol_Request_Header_Generic / Raw",
+    "protocols": [
+      {
+        "type": "SMB",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "smbStats": "{'commands': {'CREATE_DIRECTORY': 1}, 'counts': 1}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:34:19.861302",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMBNegociate_Protocol_Request_Header_Generic / Raw",
+    "protocols": [
+      {
+        "type": "SMB",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "smbStats": "{'commands': {'CREATE_DIRECTORY': 1}, 'counts': 1}",
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  }
+]

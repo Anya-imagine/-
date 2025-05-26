@@ -1,0 +1,485 @@
+[
+  {
+    "timestamp": "2025-05-26T22:01:35.117601",
+    "summary": "Ether / IP / TCP / TLS / TLS 34.202.56.158:443 > 192.168.36.131:41656 / TLS / TLS ChangeCipherSpec / Raw",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": "{'default_key': '8.8.8.8'}",
+          "src_ip": "34.202.56.158",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 4134,
+          "tls.ver": "{'TLSv1.2'}",
+          "tags": [],
+          "protocols": [
+            "tls"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:35.135800",
+    "summary": "Ether / IP / TCP 34.202.56.158:https > 192.168.36.131:41656 PA / _TLSEncryptedContent",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "src_ip": "34.202.56.158",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 357,
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:35.157455",
+    "summary": "Ether / IP / TCP 192.168.36.131:41656 > 34.202.56.158:https A / _TLSEncryptedContent",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "src_ip": "192.168.36.131",
+          "dst_ip": "34.202.56.158",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 1514,
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:35.161998",
+    "summary": "Ether / IP / TCP 192.168.36.131:41656 > 34.202.56.158:https PA / _TLSEncryptedContent",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "src_ip": "192.168.36.131",
+          "dst_ip": "34.202.56.158",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 1195,
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:36.237090",
+    "summary": "Ether / IP / TCP / TLS / TLS 54.211.158.4:443 > 192.168.36.131:37704 / TLS / TLS ChangeCipherSpec / Raw",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": "{'default_key': '8.8.8.8'}",
+          "src_ip": "54.211.158.4",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 2774,
+          "tls.ver": "{'TLSv1.2'}",
+          "tags": [],
+          "protocols": [
+            "tls"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:36.239665",
+    "summary": "Ether / IP / TCP 54.211.158.4:https > 192.168.36.131:37704 PA / _TLSEncryptedContent",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "src_ip": "54.211.158.4",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 1717,
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:37.195241",
+    "summary": "Ether / IP / TCP / TLS / TLS 34.200.43.1:443 > 192.168.36.131:60790 / TLS / TLS ChangeCipherSpec / Raw",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": "{'default_key': '8.8.8.8'}",
+          "src_ip": "34.200.43.1",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 2774,
+          "tls.ver": "{'TLSv1.2'}",
+          "tags": [],
+          "protocols": [
+            "tls"
+          ],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T22:01:37.200385",
+    "summary": "Ether / IP / TCP 34.200.43.1:https > 192.168.36.131:60790 PA / _TLSEncryptedContent",
+    "protocols": [
+      {
+        "type": "HTTP",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      },
+      {
+        "type": "TLS",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "src_ip": "34.200.43.1",
+          "dst_ip": "192.168.36.131",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 6,
+          "is_ipv6": false,
+          "session_id": null,
+          "databytes": 1717,
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0
+        }
+      }
+    ]
+  }
+]

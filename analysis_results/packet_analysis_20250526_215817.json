@@ -1,0 +1,431 @@
+[
+  {
+    "timestamp": "2025-05-26T21:58:17.242237",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Change_Notify_Response",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.242706",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds PA / NBTSession / SMB2_Header / SMB2_Change_Notify_Request",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.244537",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Error_Response / NBTSession",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.251729",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Change_Notify_Response",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.252002",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds A / Padding",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.252147",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds PA / NBTSession / SMB2_Header / SMB2_Change_Notify_Request",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.253536",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Error_Response / NBTSession",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:17.302679",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds A / Padding",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:18.247939",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds PA / NBTSession / SMB2_Header / SMB2_Create_Request",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:18.262261",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Create_Response",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:18.262887",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds PA / NBTSession / SMB2_Header / SMB2_Close_Request",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:18.263272",
+    "summary": "Ether / IP / TCP 192.168.36.131:microsoft_ds > 192.168.36.1:11849 PA / NBTSession / SMB2_Header / SMB2_Close_Response",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-26T21:58:18.309449",
+    "summary": "Ether / IP / TCP 192.168.36.1:11849 > 192.168.36.131:microsoft_ds A / Padding",
+    "protocols": [
+      {
+        "type": "Unknown",
+        "data": {
+          "dnsField": {
+            "default_key": "8.8.8.8"
+          },
+          "tags": [],
+          "protocols": [],
+          "headers": {
+            "request": {},
+            "response": {}
+          },
+          "cookies": {},
+          "params": {},
+          "src_ip": "::",
+          "dst_ip": "::",
+          "src_port": 0,
+          "dst_port": 0,
+          "ip_protocol": 0,
+          "is_ipv6": false,
+          "session_id": null,
+          "parser_num": 0,
+          "parser_len": 0,
+          "thread": 0,
+          "databytes": 0
+        }
+      }
+    ]
+  }
+]
