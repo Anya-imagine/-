@@ -1,0 +1,132 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* 头部样式 */
+.el-header {
+    background-color: #409EFF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.el-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-controls {
+    display: flex;
+    gap: 10px;
+}
+
+/* 侧边栏样式 */
+.el-aside {
+    background-color: white;
+    border-right: 1px solid #e6e6e6;
+    padding: 20px;
+}
+
+.filter-card {
+    margin-bottom: 20px;
+}
+
+/* 主内容区样式 */
+.el-main {
+    padding: 20px;
+    background-color: #f5f7fa;
+}
+
+/* 数据包卡片样式 */
+.packet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.packet-card {
+    transition: all 0.3s ease;
+}
+
+.packet-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.packet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timestamp {
+    color: #909399;
+    font-size: 0.9em;
+}
+
+.packet-content {
+    margin-top: 10px;
+}
+
+/* 协议特定样式 */
+.protocol-http {
+    border-left: 4px solid #409EFF;
+}
+
+.protocol-tls {
+    border-left: 4px solid #67C23A;
+}
+
+.protocol-dns {
+    border-left: 4px solid #E6A23C;
+}
+
+.protocol-icmp {
+    border-left: 4px solid #F56C6C;
+}
+
+.protocol-smb {
+    border-left: 4px solid #909399;
+}
+
+.protocol-ssh {
+    border-left: 4px solid #9B59B6;
+}
+
+/* 统计图表样式 */
+.el-card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .el-aside {
+        width: 100% !important;
+    }
+    
+    .el-container {
+        flex-direction: column;
+    }
+    
+    .el-header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .header-controls {
+        margin-top: 10px;
+    }
+} 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>协议分析 - 网络流量分析与入侵检测系统</title>
+    <!-- 引入Element Plus样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/analysis.css') }}">
+</head>
+<body>
+    <div id="app">
+        <el-container>
+            <el-header>
+                <h1>协议分析</h1>
+                <div class="header-controls">
+                    <el-button type="primary" @click="startCapture" :disabled="isCapturing">开始捕获</el-button>
+                    <el-button type="danger" @click="stopCapture" :disabled="!isCapturing">停止捕获</el-button>
+                    <el-button type="warning" @click="clearData">清除数据</el-button>
+                </div>
+            </el-header>
+            
+            <el-main>
+                <el-row :gutter="20">
+                    <!-- 协议分布饼图 -->
+                    <el-col :span="12">
+                        <el-card class="chart-card">
+                            <template #header>
+                                <div class="card-header">
+                                    <span>协议分布</span>
+                                </div>
+                            </template>
+                            <div id="protocolPieChart" style="height: 400px;"></div>
+                        </el-card>
+                    </el-col>
+                    
+                    <!-- 流量趋势图 -->
+                    <el-col :span="12">
+                        <el-card class="chart-card">
+                            <template #header>
+                                <div class="card-header">
+                                    <span>流量趋势</span>
+                                </div>
+                            </template>
+                            <div id="trafficLineChart" style="height: 400px;"></div>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row :gutter="20" style="margin-top: 20px;">
+                    <!-- 协议详情表格 -->
+                    <el-col :span="24">
+                        <el-card class="table-card">
+                            <template #header>
+                                <div class="card-header">
+                                    <span>协议详情</span>
+                                </div>
+                            </template>
+                            <el-table :data="protocolDetails" style="width: 100%" height="400">
+                                <el-table-column prop="protocol" label="协议" width="120">
+                                    <template #default="scope">
+                                        <el-tag :type="getProtocolTagType(scope.row.protocol)" v-text="scope.row.protocol"></el-tag>
+                                    </template>
+                                </el-table-column>
+                                <el-table-column prop="count" label="数据包数量" width="120"></el-table-column>
+                                <el-table-column prop="bytes" label="总字节数" width="120"></el-table-column>
+                                <el-table-column prop="avgSize" label="平均大小" width="120"></el-table-column>
+                                <el-table-column prop="details" label="详细信息">
+                                    <template #default="scope">
+                                        <el-collapse>
+                                            <el-collapse-item>
+                                                <template #title>
+                                                    <span>查看详情</span>
+                                                </template>
+                                                <pre v-text="JSON.stringify(scope.row.details, null, 2)"></pre>
+                                            </el-collapse-item>
+                                        </el-collapse>
+                                    </template>
+                                </el-table-column>
+                            </el-table>
+                        </el-card>
+                    </el-col>
+                </el-row>
+
+                <el-row :gutter="20" style="margin-top: 20px;">
+                    <!-- 异常检测 -->
+                    <el-col :span="12">
+                        <el-card class="chart-card">
+                            <template #header>
+                                <div class="card-header">
+                                    <span>异常检测</span>
+                                </div>
+                            </template>
+                            <div id="anomalyChart" style="height: 400px;"></div>
+                        </el-card>
+                    </el-col>
+                    
+                    <!-- 连接统计 -->
+                    <el-col :span="12">
+                        <el-card class="chart-card">
+                            <template #header>
+                                <div class="card-header">
+                                    <span>连接统计</span>
+                                </div>
+                            </template>
+                            <div id="connectionChart" style="height: 400px;"></div>
+                        </el-card>
+                    </el-col>
+                </el-row>
+            </el-main>
+        </el-container>
+    </div>
+
+    <!-- 引入Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- 引入Element Plus -->
+    <script src="https://unpkg.com/element-plus"></script>
+    <!-- 引入ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <!-- 引入Socket.IO -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <!-- 引入自定义脚本 -->
+    <script src="{{ url_for('static', filename='js/analysis.js') }}"></script>
+</body>
+</html> 

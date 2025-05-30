@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络流量分析与入侵检测系统</title>
+    <!-- 引入Element Plus样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="app">
+        <el-container>
+            <el-header>
+                <h1>网络流量分析与入侵检测系统</h1>
+                <div class="header-controls">
+                    <el-button type="primary" @click="startCapture" :disabled="isCapturing">开始捕获</el-button>
+                    <el-button type="danger" @click="stopCapture" :disabled="!isCapturing">停止捕获</el-button>
+                    <el-button type="warning" @click="clearPackets">清除数据</el-button>
+                </div>
+            </el-header>
+            
+            <el-container>
+                <el-aside width="300px">
+                    <el-card class="filter-card">
+                        <template #header>
+                            <div class="card-header">
+                                <span>协议过滤</span>
+                            </div>
+                        </template>
+                        <el-form label-position="top">
+                            <el-form-item label="协议">
+                                <el-select v-model="filters.protocol" multiple placeholder="选择协议" style="width: 100%">
+                                    <el-option label="全部" value="all"></el-option>
+                                    <el-option label="HTTP" value="HTTP"></el-option>
+                                    <el-option label="HTTPS" value="TLS"></el-option>
+                                    <el-option label="DNS" value="DNS"></el-option>
+                                    <el-option label="ICMP" value="ICMP"></el-option>
+                                    <el-option label="SMB" value="SMB"></el-option>
+                                    <el-option label="SSH" value="SSH"></el-option>
+                                </el-select>
+                            </el-form-item>
+                        </el-form>
+                    </el-card>
+                </el-aside>
+                
+                <el-main>
+                    <el-tabs v-model="activeTab" type="border-card">
+                        <el-tab-pane label="实时流量" name="realtime">
+                            <div class="packet-list">
+                                <template v-if="filteredPackets.length > 0">
+                                    <el-card v-for="(packet, index) in filteredPackets" 
+                                            :key="index" 
+                                            class="packet-card"
+                                            :class="getProtocolClass(packet.protocol)">
+                                        <template #header>
+                                            <div class="packet-header">
+                                                <span class="timestamp" v-text="packet.timestamp"></span>
+                                                <el-tag :type="getProtocolTagType(packet.protocol)" v-text="packet.protocol"></el-tag>
+                                            </div>
+                                        </template>
+                                        <div class="packet-content">
+                                            <el-descriptions :column="2" border>
+                                                <el-descriptions-item label="源地址">
+                                                    <span v-text="packet.data.source"></span>
+                                                </el-descriptions-item>
+                                                <el-descriptions-item label="目标地址">
+                                                    <span v-text="packet.data.destination"></span>
+                                                </el-descriptions-item>
+                                                <el-descriptions-item label="负载长度">
+                                                    <span v-text="packet.data.payload_length"></span>
+                                                </el-descriptions-item>
+                                            </el-descriptions>
+                                            
+                                            <el-collapse>
+                                                <el-collapse-item title="详细信息">
+                                                    <pre v-text="JSON.stringify(packet.data, null, 2)"></pre>
+                                                </el-collapse-item>
+                                            </el-collapse>
+                                        </div>
+                                    </el-card>
+                                </template>
+                                <el-empty v-else description="暂无数据包"></el-empty>
+                            </div>
+                        </el-tab-pane>
+                        
+                        <el-tab-pane label="统计分析" name="statistics">
+                            <el-row :gutter="20">
+                                <el-col :span="8">
+                                    <el-card>
+                                        <template #header>
+                                            <div class="card-header">
+                                                <span>协议分布</span>
+                                            </div>
+                                        </template>
+                                        <div id="protocolChart" style="height: 300px;"></div>
+                                    </el-card>
+                                </el-col>
+                                <el-col :span="8">
+                                    <el-card>
+                                        <template #header>
+                                            <div class="card-header">
+                                                <span>流量趋势</span>
+                                            </div>
+                                        </template>
+                                        <div id="trafficChart" style="height: 300px;"></div>
+                                    </el-card>
+                                </el-col>
+                                <el-col :span="8">
+                                    <el-card>
+                                        <template #header>
+                                            <div class="card-header">
+                                                <span>异常检测</span>
+                                            </div>
+                                        </template>
+                                        <div id="anomalyChart" style="height: 300px;"></div>
+                                    </el-card>
+                                </el-col>
+                            </el-row>
+                        </el-tab-pane>
+                    </el-tabs>
+                </el-main>
+            </el-container>
+        </el-container>
+    </div>
+
+    <!-- 引入Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- 引入Element Plus -->
+    <script src="https://unpkg.com/element-plus"></script>
+    <!-- 引入ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <!-- 引入Socket.IO -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <!-- 引入自定义脚本 -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
